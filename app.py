@@ -233,7 +233,7 @@ def predict():
 
         price_prediction= round(prediction[0],2)
 
-        return render_template('index.html',pred = "Your House Price Prediction is {}".format(price_prediction))
+        return render_template('index.html',pred = "Your House Price Prediction is ₹ {}".format(price_prediction))
     return render_template('index.html')
 
 
